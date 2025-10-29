@@ -40,8 +40,8 @@ pip install ultralytics opencv-python matplotlib
 
 ## 👨‍💻 Author
 
-Ronit Girglani
-Kenil Patel
-Kirtan Visanagara
-Shubham Pathak
-Bhuvan Rathod
+- Ronit Girglani
+- Kenil Patel
+- Kirtan Visanagara
+- Shubham Pathak
+- Bhuvan Rathod
