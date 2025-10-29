@@ -22,7 +22,7 @@ It is optimized for quick experimentation, dataset customization, and end-to-end
 ### 1️⃣ Open in Google Colab
 Click the button below to open and run the notebook directly in Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/satellite-small-object-detection/blob/main/Training_Pipeline.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RonitPG19/Small-Object-Detection/blob/main/Training_Pipeline.ipynb)
 
 ---
 
