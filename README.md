@@ -90,11 +90,11 @@ python app.py
 
 4. Run the Flask app to visualize detections interactively.
 
-🎥 Demo Video
+## 🎥 Demo Video
 
 - Watch the full walkthrough of the system below:
 
-<iframe width="640" height="360" src="https://www.loom.com/embed/8f5a3d7de27d416b9336fbe258a40b05" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+https://www.loom.com/share/8f5a3d7de27d416b9336fbe258a40b05
 
 ## 👨‍💻 Author
 
