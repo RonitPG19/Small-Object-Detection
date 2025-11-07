@@ -82,7 +82,7 @@ python app.py
 ```
 ## 🧪 Project Workflow
 
-1 .Train the model using the Colab notebook on your dataset.
+1. Train the model using the Colab notebook on your dataset.
 
 2. Export the trained weights (e.g., model.pth).
 
