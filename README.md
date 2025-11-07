@@ -62,7 +62,7 @@ git clone https://github.com/RonitPG19/Small-Object-Detection.git
 cd Small-Object-Detection
 git lfs pull
 ```
-- ⚠️ Skipping git lfs pull may result in placeholder text files instead of actual model weights.
+> ⚠️ Skipping git lfs pull may result in placeholder text files instead of actual model weights.
 
 ## 🌐 Flask Web Application
 
