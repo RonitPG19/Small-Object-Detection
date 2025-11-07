@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orbital Vision - Object Detection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./static/css/styles.css" />
+    <script src="./static/js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="brand">
+          <div class="brand-logo">ORBITAL VISION</div>
+          <div class="brand-tagline">/ DETECTION SYSTEM V2.4</div>
+        </div>
+        <div class="system-status">
+          <div class="status-indicator">
+            <div class="pulse-dot"></div>
+            <span>OPERATIONAL</span>
+          </div>
+          <div class="timestamp" id="timestamp">—</div>
+        </div>
+      </header>
+
+      <div class="workspace">
+        <div class="panel">
+          <div class="panel-header">
+            <div class="panel-title">Analysis Window</div>
+            <div class="panel-heading">Image Processing</div>
+          </div>
+          <div class="panel-body">
+            <input type="file" id="fileInput" accept="image/*" />
+
+            <div id="canvasArea" class="canvas-area">
+              <div id="uploadPrompt" class="upload-prompt">
+                <div class="orbit-icon">
+                  <div class="orbit-circle">
+                    <div class="orbit-dot"></div>
+                  </div>
+                </div>
+                <div class="upload-text">
+                  <h3>Drop Satellite Imagery</h3>
+                  <p>PNG, JPEG, WEBP / MAX 10MB</p>
+                </div>
+              </div>
+              <img id="previewCanvas" style="display: none" />
+              <div id="overlayContainer"></div>
+              <div id="loadingState" class="loading-state">
+                <div class="spinner-ring"></div>
+                <div class="loading-text">Analyzing image data...</div>
+              </div>
+            </div>
+
+            <div class="controls">
+              <button class="btn btn-primary" id="analyzeBtn" disabled>
+                Run Detection
+              </button>
+              <button
+                class="btn btn-secondary"
+                id="resetBtn"
+                style="display: none"
+              >
+                Reset
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <div class="panel-title">Detection Output</div>
+            <div class="panel-heading">Results</div>
+          </div>
+          <div class="panel-body">
+            <div class="metrics">
+              <div class="metric-card">
+                <div class="metric-label">Objects</div>
+                <div class="metric-value" id="objectCount">0</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-label">Confidence</div>
+                <div class="metric-value" id="avgConfidence">0%</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-label">Status</div>
+                <div
+                  class="metric-value"
+                  id="statusValue"
+                  style="font-size: 1.125rem"
+                >
+                  —
+                </div>
+              </div>
+            </div>
+
+            <div class="results-section">
+              <div class="section-label">Detected Objects</div>
+              <div id="resultsList" class="results-list">
+                <div class="empty-state">
+                  <div class="empty-icon">🛰️</div>
+                  <div class="empty-text">
+                    Awaiting image input and analysis
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
