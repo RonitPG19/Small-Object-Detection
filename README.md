@@ -9,13 +9,13 @@ The pipline is optimized for quick experimentation, dataset customization, and e
 
 ## 🚀 Features
 
-- ✅ Pre-configured for **Google Colab**
-- ✅ **Faster R-CNN**–based small object detection pipeline  
-- ✅ Support for **custom satellite datasets** (e.g., DOTA)  
-- ✅ Integrated **training, validation, and inference** workflow  
-- ✅ **Flask-based frontend** for result visualization and testing  
-- ✅ Automatic environment setup and dataset handling  
-- ✅ Model weights available via **Git LFS (Large File Storage)**  
+-  Pre-configured for **Google Colab**
+-  **Faster R-CNN**–based small object detection pipeline  
+-  Support for **custom satellite datasets** (e.g., DOTA)  
+-  Integrated **training, validation, and inference** workflow  
+-  **Flask-based frontend** for result visualization and testing  
+-  Automatic environment setup and dataset handling  
+-  Model weights available via **Git LFS (Large File Storage)**  
 
 ---
 
